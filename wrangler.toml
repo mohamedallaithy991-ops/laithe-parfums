@@ -9,3 +9,5 @@ directory = "./public"
 binding = "LAITHE_DB"
 database_name = "laithe-parfums-db"
 database_id = "d638bfd1-2722-4b52-bf1f-87d8fb80782d"
+[observability]
+enabled = true
