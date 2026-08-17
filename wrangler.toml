@@ -1,0 +1,14 @@
+name = "laithe-parfums"
+main = "src/index.js"
+compatibility_date = "2026-08-16"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+# اربط قاعدة D1 من Cloudflare Dashboard باسم binding: LAITHE_DB
+# أو أضف database_id هنا بعد إنشاء قاعدة البيانات.
+# [[d1_databases]]
+# binding = "LAITHE_DB"
+# database_name = "laithe-parfums-db"
+# database_id = "PUT_DATABASE_ID_HERE"
